@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.2/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Investigación sobre Formación Docente y Alfabetización Científica","children":[{"content":"1. Introducción","children":[{"content":"<strong>Contexto histórico</strong>","children":[{"content":"Origen de la enseñanza de las ciencias en el currículo escolar","children":[],"payload":{"lines":"4,5"}},{"content":"Influencia de la Revolución Industrial","children":[],"payload":{"lines":"5,6"}},{"content":"Potencias mundiales y la carrera espacial (décadas de 1950 y 1960)","children":[],"payload":{"lines":"6,7"}}],"payload":{"lines":"3,7"}},{"content":"<strong>Conceptos clave</strong>","children":[{"content":"Alfabetización científica (Bybee, 1997; Fourez, 1997)","children":[],"payload":{"lines":"8,9"}},{"content":"Integración de aspectos históricos, epistemológicos y relaciones CTS (Ciencia-Tecnología-Sociedad)","children":[],"payload":{"lines":"9,10"}}],"payload":{"lines":"7,10"}},{"content":"<strong>Problematización</strong>","children":[{"content":"Necesidad de analizar el nivel de alfabetización científica de los docentes","children":[],"payload":{"lines":"11,13"}}],"payload":{"lines":"10,13"}}],"payload":{"lines":"2,3"}},{"content":"2. Marco Teórico","children":[{"content":"<strong>Teoría de Sistemas Sociales (Luhmann, 2006)</strong>","children":[{"content":"Comunicación, selección y desarrollo de la alfabetización científica en los docentes","children":[],"payload":{"lines":"15,16"}}],"payload":{"lines":"14,16"}},{"content":"<strong>Concepto de Alfabetización Científica</strong>","children":[{"content":"Saber científico como competencia (Fourez, 1997)","children":[],"payload":{"lines":"17,18"}},{"content":"Impacto de las TIC en la enseñanza de las ciencias (Arias Gil &amp; López Ríos, 2014)","children":[],"payload":{"lines":"18,19"}}],"payload":{"lines":"16,19"}},{"content":"<strong>Formación Docente</strong>","children":[{"content":"Concepto de \"formabilidad\" y su importancia en la educación (Runge &amp; Garcés, 2011)","children":[],"payload":{"lines":"20,21"}},{"content":"Relevancia de la autoevaluación en los procesos educativos (Scott, 2019)","children":[],"payload":{"lines":"21,23"}}],"payload":{"lines":"19,23"}}],"payload":{"lines":"13,14"}},{"content":"3. Metodología","children":[{"content":"<strong>Diseño</strong>","children":[{"content":"Enfoque mixto: cualitativo y cuantitativo","children":[],"payload":{"lines":"25,26"}},{"content":"Contexto natural, transeccional contemporáneo","children":[],"payload":{"lines":"26,27"}}],"payload":{"lines":"24,27"}},{"content":"<strong>Población y muestra</strong>","children":[{"content":"Docentes de ciencias naturales de Medellín","children":[],"payload":{"lines":"28,29"}},{"content":"Muestreo estratificado: 206 educadores","children":[],"payload":{"lines":"29,30"}}],"payload":{"lines":"27,30"}},{"content":"<strong>Instrumentos</strong>","children":[{"content":"Encuesta Likert (26 ítems): conocimientos, actitudes, habilidades","children":[],"payload":{"lines":"31,32"}}],"payload":{"lines":"30,32"}},{"content":"<strong>Análisis de datos</strong>","children":[{"content":"Análisis descriptivo, tablas y gráficos","children":[],"payload":{"lines":"33,34"}},{"content":"Técnicas correlacionales","children":[],"payload":{"lines":"34,36"}}],"payload":{"lines":"32,36"}}],"payload":{"lines":"23,24"}},{"content":"4. Resultados","children":[{"content":"<strong>Perfil profesional de los docentes</strong>","children":[{"content":"Mayoría con posgrados (especialización o maestría)","children":[],"payload":{"lines":"38,39"}},{"content":"85.8% bajo el Decreto 1278","children":[],"payload":{"lines":"39,40"}}],"payload":{"lines":"37,40"}},{"content":"<strong>Conocimiento disciplinar</strong>","children":[{"content":"Valoración del uso de matemáticas como fundamento para explicar fenómenos","children":[],"payload":{"lines":"41,42"}},{"content":"Los profesionales en áreas técnicas valoran más la matemática en la ciencia (Bybee, 1997)","children":[],"payload":{"lines":"42,43"}}],"payload":{"lines":"40,43"}},{"content":"<strong>Habilidades y Procedimientos</strong>","children":[{"content":"Uso de TICs y desarrollo de proyectos interdisciplinarios","children":[],"payload":{"lines":"44,45"}},{"content":"Necesidad de contextualizar los proyectos educativos","children":[],"payload":{"lines":"45,46"}}],"payload":{"lines":"43,46"}},{"content":"<strong>Actitudes y Valores</strong>","children":[{"content":"Impacto de la cultura y sociedad en la enseñanza de las ciencias (Hodson, 2003)","children":[],"payload":{"lines":"47,48"}},{"content":"Reconocimiento de factores morales y éticos","children":[],"payload":{"lines":"48,50"}}],"payload":{"lines":"46,50"}}],"payload":{"lines":"36,37"}},{"content":"5. Discusión y Recomendaciones","children":[{"content":"<strong>Actualización continua</strong>","children":[{"content":"Fomentar la participación activa en programas de actualización disciplinar (Cofré et al., 2010)","children":[],"payload":{"lines":"52,53"}},{"content":"Integración de prácticas de autoevaluación (Scott, 2019)","children":[],"payload":{"lines":"53,54"}}],"payload":{"lines":"51,54"}},{"content":"<strong>Fortalecimiento de la formación pedagógica</strong>","children":[{"content":"Necesidad de formación continua en metodologías adaptadas (Suárez-Mesa y Gómez, 2024)","children":[],"payload":{"lines":"55,56"}}],"payload":{"lines":"54,56"}},{"content":"<strong>Proyectos interdisciplinarios y contextualización</strong>","children":[{"content":"Fomentar proyectos ajustados al contexto inmediato (Hoffpauir, 2022)","children":[],"payload":{"lines":"57,58"}}],"payload":{"lines":"56,58"}},{"content":"<strong>Participación en formación continua</strong>","children":[{"content":"Incentivar la participación en seminarios y congresos","children":[],"payload":{"lines":"59,60"}}],"payload":{"lines":"58,60"}},{"content":"<strong>Estudio de la alfabetización científica en otros contextos</strong>","children":[{"content":"Incluir variables sociodemográficas en futuros estudios (Neira Parra, 2021)","children":[],"payload":{"lines":"61,63"}}],"payload":{"lines":"60,63"}}],"payload":{"lines":"50,51"}},{"content":"6. Conclusiones","children":[{"content":"Los docentes de ciencias naturales poseen un alto nivel de alfabetización científica","children":[],"payload":{"lines":"64,65"}},{"content":"Importancia de equilibrar el conocimiento pedagógico y técnico","children":[],"payload":{"lines":"65,66"}},{"content":"Se requiere una reflexión continua para mejorar los procesos educativos","children":[],"payload":{"lines":"66,67"}}],"payload":{"lines":"63,64"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
